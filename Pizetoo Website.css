@@ -1,8 +1,16 @@
 body {
-    background-color: lightblue;
+    background-color: white;
+    height: auto;
+    min-height: 100vh;
+
+}
+
+body > p {
+    height: auto;
+    overflow: auto;
 }
 
 h1 {
     color: navy;
-    margin-left: 20px;
+    margin-left: 40px;
 }
